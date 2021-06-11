@@ -1,4 +1,5 @@
 addEventListener("fetch", (event) => {
+    console.log("hi")
     const response = new Response(
         JSON.stringify({ message: "Hi!" }),
         {
