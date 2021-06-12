@@ -1,8 +1,8 @@
-addEventListener("fetch", (event) => {
-    event.respondWith(handleRequest(event.request));
-});
+// addEventListener("fetch", (event) => {
+//     event.respondWith(handleRequest(event.request));
+// });
 
-async function handleRequest(request) {
-    // return new Response({ status: 200 });
-}
+// async function handleRequest(request) {
+//     return new Response({ status: 200 });
+// }
 
