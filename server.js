@@ -4,6 +4,6 @@ addEventListener("fetch", (event) => {
 
 
 async function handleRequest(request) {
-    // return new Response({ status: 200 });
+    return new Response({ status: 200 });
 }
 
